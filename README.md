@@ -1,17 +1,21 @@
 # Problem-Solving
 
 
-JAVA
+**JAVA**
 
 
 
 
 
 
-Python
+
+
+
+**Python**
 
 1. Queue
 Implement Queue using List
+```
     # Create an empty list to act as a queue
     queue = []
 
@@ -24,7 +28,7 @@ Implement Queue using List
     print(queue.pop(0))  # Output: 1
     print(queue.pop(0))  # Output: 2
     print(queue.pop(0))  # Output: 3
-
+```
 Implement Queue usign inbuilt queue
     import queue
 
@@ -44,10 +48,10 @@ Implement Queue usign inbuilt queue
 Implement Queue using collections dequeue
     from collections import deque
 
-    # Create a deque
+    Create a deque
     d = deque([1, 2, 3])
 
-    # Append and pop elements from both ends
+    Append and pop elements from both ends
     d.append(4)  # Append to the right
     d.appendleft(0)  # Append to the left
     d.pop()  # Remove from the right
