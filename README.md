@@ -30,6 +30,7 @@ Implement Queue using List
     print(queue.pop(0))  # Output: 3
 ```
 Implement Queue usign inbuilt queue
+```
     import queue
 
     # Create a new queue
@@ -45,7 +46,10 @@ Implement Queue usign inbuilt queue
     print(q.get())  # Output: 2
     print(q.get())  # Output: 3
 
+```
+
 Implement Queue using collections dequeue
+```
     from collections import deque
 
     Create a deque
@@ -56,3 +60,5 @@ Implement Queue using collections dequeue
     d.appendleft(0)  # Append to the left
     d.pop()  # Remove from the right
     d.popleft()  # Remove from the left
+
+```
